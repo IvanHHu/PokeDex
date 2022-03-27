@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #eff3ff;
+}
+
+.contenedor {
+    width: 350px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+#tarjeta{
+    position: relative;
+    background: radial-gradient(circle at 50% 0%, orange 36%, #ffffff 36%);
+    width: 100%;
+    padding: 30px 20px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.15);
+    border-radius: 10px;
+}
+
+#tarjeta img{
+    display:block;
+    width: 180px;
+    max-height: 200px;
+    position: relative;
+    margin: 20px auto;
+}
+
+.hp{
+    width: 80px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 30px;
+    margin-left: auto;
+    font-weight: 400;
+
+}
+
+.tipos{
+    display:flex;
+    justify-content: space-around;
+    margin: 20px 0 40px 0;
+}
+
+.poke-name{
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.hp span,
+.tipos span{
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    font-weight: 700;
+}
+
+.estadisticas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.estadisticas p{
+    color: #404060;
+}
+
+#btn,
+#btn_2{
+    display: block;
+    padding: 15px 40px;
+    font-size: 18px;
+    background-color: #101010;
+    color: #ffffff;
+    position: relative;
+    margin: 30px auto;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.tipos span{
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: #ffffff;
+}
+.label {
+    font-size: 18px;
+    padding: 30px 100px;
+    display: block;
+    border-radius: 5px;
+    font-weight: 400;
+    color:darkslateblue;
+}
+
+#pokemon {
+    font-size: 18px;
+    display: block;
+    padding: 2% 20%;
+    border-radius: 5px;
+    font-weight: 400;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}

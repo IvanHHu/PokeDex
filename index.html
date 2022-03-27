@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div id="tarjeta">
+            <p class="hp">
+                <span>HP</span>
+                80
+            </p>
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/132.svg"
+                alt="">
+            <h2 class="poke-name">
+                Nombre
+            </h2>
+            <div class="tipos">
+                <span>tipo 1</span>
+                <span>tipo 2</span>
+            </div>
+            <div class="estadisticas">
+                <div>
+                    <h3>60</h3>
+                    <p>Ataque</p>
+                </div>
+                <div>
+                    <h3>60</h3>
+                    <p>Defensa</p>
+                </div>
+                <div>
+                    <h3>60</h3>
+                    <p>Velocidad</p>
+                </div>
+
+            </div>
+        </div>
+        <label for="pokemon" class="label">Elige tu pokemon</label>
+        <input id="pokemon" type="text">
+        <div class="buttons">
+            <button id="btn" onclick="getPokeData(pokemon.value.toLowerCase())">Buscar</button>
+            <button id="btn_2" onclick="getPokeData(parseInt(Math.floor(Math.random() * 150) + 1))">Descubrir</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
